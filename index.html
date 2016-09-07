@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Searchable</title>
+        <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <!--jQuery Script-->
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <!--Bootstrap Script-->
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container" id="page-container">
+            <h1 id="title">
+                 <span class="glyphicon glyphicon-search"></span> Searchable <span class="glyphicon glyphicon-search"></span>
+            </h1>
+        </div>   
+    </body>
+
+    <form id="bs">
+    <input type="text" id="user-input" name="search-bar" placeholder="Search For Your Images Here..."><br>
+    <input type="submit" id="user-submit" name="search" value="Search">
+    </form>
+    <br>
+    <div id="images"></div>
+    <script type="text/javascript" src="./js/main.js"></script>
+</html>
